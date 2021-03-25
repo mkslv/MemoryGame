@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "08bfabb61fb0c1dd34f915cc539c4e13"
+build_time: [1616691205, 315908000]
+inputs:
+  "/Users/mkiselyov/Developer/Xcode/MemoryGame/MemoryGame/ContentView.swift": [1616691147, 988550714]
+  "/Users/mkiselyov/Developer/Xcode/MemoryGame/MemoryGame/MemoryGameApp.swift": [1616691147, 979302162]
