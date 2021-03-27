@@ -1,4 +1,4 @@
-//
+//  View
 //  ContentView.swift
 //  MemoryGame
 //
@@ -12,7 +12,7 @@ struct ContentView: View {
         HStack {
             
             ForEach (0..<4) { index in
-                CardView()
+                CardView(isFaceUp: false)
             }
             
         }
@@ -23,7 +23,7 @@ struct ContentView: View {
 }
 
 struct CardView: View {
-    var isFaceUp: Bool = true
+    var isFaceUp: Bool
     
     var body: some View {
         ZStack {
