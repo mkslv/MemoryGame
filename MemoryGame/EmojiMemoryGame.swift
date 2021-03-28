@@ -8,12 +8,8 @@
 import SwiftUI
 
 class EmojiMemoryGame {
-//  private var model: MemoryGame<String> ни один вид не видит модель
-//  private(set) var model: MemoryGame<String> Сделали дверь "стеклянной"
     private var model: MemoryGame<String> =
-        MemoryGame<String>(numberOfPairsOfCards: 2, cardContentFactory: {pairIndex in "😇"}) // {(pairIndex: Int ) -> String in
-//          return "😇"
-//  }) - Полная запись
+        MemoryGame<String>(numberOfPairsOfCards: 2) {_ in "😇"}
         
     
 
