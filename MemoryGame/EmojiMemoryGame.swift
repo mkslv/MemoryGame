@@ -10,7 +10,7 @@ import SwiftUI
 class EmojiMemoryGame {
     private var model: MemoryGame<String> = EmojiMemoryGame.createMemoryGame()
     
-    static func createMemoryGame() -> MemoryGame<String> {  // ststic делает эту функцию функцией типа
+    static func createMemoryGame() -> MemoryGame<String> {  // static делает эту функцию функцией типа
         let emojis: Array<String> = ["👻","🎃","💀","🕷"]
         return MemoryGame<String>(numberOfPairsOfCards: emojis.count) { pairIndex in
                 return emojis[pairIndex]
