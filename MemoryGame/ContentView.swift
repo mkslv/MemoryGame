@@ -30,7 +30,7 @@ struct ContentView: View {
         }
         .padding(.horizontal)
     }
-    
+    // test
     var remove: some View {
         Button {
             if emojiCount > 2{
